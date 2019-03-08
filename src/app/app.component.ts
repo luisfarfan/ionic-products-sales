@@ -21,7 +21,7 @@ export class AppComponent {
             icon: 'list'
         },
         {
-            title: 'Productos',
+            title: 'Lista de productos',
             url: '/products',
             icon: 'list'
         },

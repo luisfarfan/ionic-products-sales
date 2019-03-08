@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {PRODUCTS, USERS} from '../../data';
 import {AuthService} from '../../providers/auth.service';
+import {Router} from '@angular/router';
 
 @Component({
     selector: 'app-sales',
@@ -13,10 +14,14 @@ export class SalesPage implements OnInit {
     date = new Date();
     users = USERS;
 
-    constructor() {
+    constructor(private router: Router) {
     }
 
     ngOnInit() {
+    }
+
+    goToProducts(): void {
+        this.router.navigate(['products']);
     }
 
 }
