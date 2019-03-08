@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {PRODUCTS} from '../../data';
+import {PRODUCTS, USERS} from '../../data';
 import {AuthService} from '../../providers/auth.service';
 
 @Component({
@@ -11,6 +11,7 @@ export class SalesPage implements OnInit {
     products = PRODUCTS;
     auth = AuthService.getUserAuthenticated();
     date = new Date();
+    users = USERS;
 
     constructor() {
     }
