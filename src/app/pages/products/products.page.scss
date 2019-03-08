@@ -1,0 +1,57 @@
+ion-item {
+  .container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+  }
+}
+
+.session-track-ionic {
+  color: var(--ion-color-primary);
+}
+
+.session-track-angular {
+  color: var(--ion-color-angular);
+}
+
+.session-track-communication {
+  color: var(--ion-color-communication);
+}
+
+.session-track-tooling {
+  color: var(--ion-color-tooling);
+}
+
+.session-track-services {
+  color: var(--ion-color-services);
+}
+
+.session-track-design {
+  color: var(--ion-color-design);
+}
+
+.session-track-workshop {
+  color: var(--ion-color-workshop);
+}
+
+.session-track-food {
+  color: var(--ion-color-food);
+}
+
+.session-track-documentation {
+  color: var(--ion-color-documentation);
+}
+
+.round {
+  width: 25px;
+  --border-radius: 50%;
+  --vertical-align: middle;
+  --padding-start: 5px;
+  --padding-end: 5px;
+}
